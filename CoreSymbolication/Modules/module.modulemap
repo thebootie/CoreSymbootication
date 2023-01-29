@@ -1,8 +1,0 @@
-framework module CoreSymbolication {
-    umbrella header "CoreSymbolication.h"
-
-    explicit module Private {
-        umbrella header "CoreSymbolicationPrivate.h"
-        export CoreSymbolication
-    }
-}
